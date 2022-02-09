@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
 }
 
 .container{
-    max-width:315px;
+    max-width:375px;
     height: auto;
     justify-content: center;
     margin: 0 auto;
@@ -71,7 +72,7 @@ body{
 
 .opinion-box p{
     line-height: 20px;
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 .avatar{
     margin-bottom: 20px;
@@ -95,5 +96,37 @@ body{
 }
 .avatar__buyer-color{
     color:hsl(333, 80%, 67%);
-    
+}
+
+@media (min-width: 376px){
+   .container{
+        max-width: 1440px;
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+        display: flex;
+        padding:150px;
+        flex-direction: row;
+        flex-wrap: wrap;
+   } 
+   .text{
+        flex: 1 200px;
+        flex-basis: 50%;
+        }
+    .text__h1{
+        text-align: left;
+        
+        font-size: 3em;
+    }
+    .text_p{
+        text-align: left;
+    }
+   .stars{
+       flex: 200px;
+       flex-basis: 50%;
+   }
+   
+   .opinion-box{
+        flex: 2;
+        flex-basis: 100%;
+        
+   }
 }
