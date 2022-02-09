@@ -56,7 +56,9 @@ body{
 .stars__icon1{
     padding: 5px;
 }
-
+.opinion-box{
+    margin-top: 60px;
+}
 .opinion-box > div{
     background-color: hsl(300, 43%, 22%);
     border-radius: 5px;
@@ -64,23 +66,34 @@ body{
     margin:15px 0;
     color:hsl(0, 0%, 100%);
     font-weight: 400;
+    font-size: 0.9em;
+}
+
+.opinion-box p{
+    line-height: 20px;
+    font-size: 0.9em;
 }
 .avatar{
     margin-bottom: 20px;
-    border: 1px solid white; 
     margin-top: 10px;
-   
-
+    height: 40px;
+    display: flex;
+    line-height: 20px;
 }
 .avatar img{
     border-radius: 50px;
     width:40px;
     align-self: center;
     float: left;
+    margin-right: 20px;
 }
-.avatar p{
-    margin: 0 auto;
+.avatar__text{
+    font-size: 0.9em;
 }
 .avatar__color{
     font-weight: 700;
+}
+.avatar__buyer-color{
+    color:hsl(333, 80%, 67%);
+    
 }
