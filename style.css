@@ -39,3 +39,14 @@ body{
     line-height: 25px;
     color: hsl(303, 10%, 53%);
 }
+.stars{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    text-align: center;
+}
+.stars div{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 0;
+    margin:20px 0;
+    border-radius: 5px;
+}
